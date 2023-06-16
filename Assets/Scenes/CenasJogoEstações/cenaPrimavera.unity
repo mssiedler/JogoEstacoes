@@ -123,6 +123,81 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1001 &351619901
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6111159820969642723, guid: c057363893ae21d42adf0ba0bed048d4, type: 3}
+      propertyPath: animacao
+      value: 
+      objectReference: {fileID: 351619902}
+    - target: {fileID: 6111159820969642723, guid: c057363893ae21d42adf0ba0bed048d4, type: 3}
+      propertyPath: animacaoSprite
+      value: 
+      objectReference: {fileID: 351619903}
+    - target: {fileID: 7979891721184366978, guid: c057363893ae21d42adf0ba0bed048d4, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7979891721184366978, guid: c057363893ae21d42adf0ba0bed048d4, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 7.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7979891721184366978, guid: c057363893ae21d42adf0ba0bed048d4, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -4.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7979891721184366978, guid: c057363893ae21d42adf0ba0bed048d4, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7979891721184366978, guid: c057363893ae21d42adf0ba0bed048d4, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7979891721184366978, guid: c057363893ae21d42adf0ba0bed048d4, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7979891721184366978, guid: c057363893ae21d42adf0ba0bed048d4, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7979891721184366978, guid: c057363893ae21d42adf0ba0bed048d4, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7979891721184366978, guid: c057363893ae21d42adf0ba0bed048d4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7979891721184366978, guid: c057363893ae21d42adf0ba0bed048d4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7979891721184366978, guid: c057363893ae21d42adf0ba0bed048d4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7979891721184366983, guid: c057363893ae21d42adf0ba0bed048d4, type: 3}
+      propertyPath: m_Name
+      value: AnimacaoCursorClickEstacoes
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c057363893ae21d42adf0ba0bed048d4, type: 3}
+--- !u!95 &351619902 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 7979891721184366976, guid: c057363893ae21d42adf0ba0bed048d4, type: 3}
+  m_PrefabInstance: {fileID: 351619901}
+  m_PrefabAsset: {fileID: 0}
+--- !u!212 &351619903 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 7979891721184366977, guid: c057363893ae21d42adf0ba0bed048d4, type: 3}
+  m_PrefabInstance: {fileID: 351619901}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &412518720
 GameObject:
   m_ObjectHideFlags: 0
@@ -203,7 +278,7 @@ Canvas:
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
-  m_AdditionalShaderChannelsFlag: 0
+  m_AdditionalShaderChannelsFlag: 25
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
@@ -393,6 +468,18 @@ PrefabInstance:
       propertyPath: m_PreserveAspect
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2030579627051984860, guid: 3262e707d4c13e341b3eb6859d24e17c, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 380
+      objectReference: {fileID: 0}
+    - target: {fileID: 2030579627051984860, guid: 3262e707d4c13e341b3eb6859d24e17c, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 5.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2030579627051984860, guid: 3262e707d4c13e341b3eb6859d24e17c, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 1.5
+      objectReference: {fileID: 0}
     - target: {fileID: 2030579627866001142, guid: 3262e707d4c13e341b3eb6859d24e17c, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -473,6 +560,38 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
       value: cenaInverno
       objectReference: {fileID: 0}
+    - target: {fileID: 2199480865909449984, guid: 3262e707d4c13e341b3eb6859d24e17c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7185962005915647382, guid: 3262e707d4c13e341b3eb6859d24e17c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 412518727}
+    - target: {fileID: 7185962005915647382, guid: 3262e707d4c13e341b3eb6859d24e17c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: LoadScenes
+      objectReference: {fileID: 0}
+    - target: {fileID: 7185962005915647382, guid: 3262e707d4c13e341b3eb6859d24e17c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: LoadDaCena, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 7185962005915647382, guid: 3262e707d4c13e341b3eb6859d24e17c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: cenaMuitoBemCartas
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492423150687599703, guid: 3262e707d4c13e341b3eb6859d24e17c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 412518727}
+    - target: {fileID: 7492423150687599703, guid: 3262e707d4c13e341b3eb6859d24e17c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: LoadScenes
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492423150687599703, guid: 3262e707d4c13e341b3eb6859d24e17c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: cenaVerao
+      objectReference: {fileID: 0}
     - target: {fileID: 9143756804945082267, guid: 3262e707d4c13e341b3eb6859d24e17c, type: 3}
       propertyPath: m_audioClip
       value: 
@@ -533,7 +652,7 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: 3262e707d4c13e341b3eb6859d24e17c, type: 3}
 --- !u!1 &884016654 stripped
 GameObject:
-  m_CorrespondingSourceObject: {fileID: 6625423293269793884, guid: 3262e707d4c13e341b3eb6859d24e17c, type: 3}
+  m_CorrespondingSourceObject: {fileID: 7116717875389632058, guid: 3262e707d4c13e341b3eb6859d24e17c, type: 3}
   m_PrefabInstance: {fileID: 884016653}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1314484505
@@ -602,7 +721,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1926975466
 PrefabInstance:
@@ -697,11 +816,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6857639324685394609, guid: 0f38340c819f6cf40aa39e527961b169, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 244
+      value: 249
       objectReference: {fileID: 0}
     - target: {fileID: 6857639324685394609, guid: 0f38340c819f6cf40aa39e527961b169, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -54
+      value: -34
       objectReference: {fileID: 0}
     - target: {fileID: 6857639324685394609, guid: 0f38340c819f6cf40aa39e527961b169, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
