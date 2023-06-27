@@ -123,6 +123,26 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8928723559210676436, guid: 53da90cac7ac355429bc1c32ccdb1faf, type: 3}
+      propertyPath: m_Type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8928723559210676436, guid: 53da90cac7ac355429bc1c32ccdb1faf, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 6c965399e85220142902fd7ffea13b2a, type: 3}
+    - target: {fileID: 8928723559210676436, guid: 53da90cac7ac355429bc1c32ccdb1faf, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8928723559210676436, guid: 53da90cac7ac355429bc1c32ccdb1faf, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8928723559210676436, guid: 53da90cac7ac355429bc1c32ccdb1faf, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8928723559210676437, guid: 53da90cac7ac355429bc1c32ccdb1faf, type: 3}
       propertyPath: m_Colors.m_HighlightedColor.b
       value: 0
@@ -139,10 +159,30 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 8928723559210676442, guid: 53da90cac7ac355429bc1c32ccdb1faf, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 119.1578
+      objectReference: {fileID: 0}
+    - target: {fileID: 8928723559210676442, guid: 53da90cac7ac355429bc1c32ccdb1faf, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 8928723559210676442, guid: 53da90cac7ac355429bc1c32ccdb1faf, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -7.1026
+      objectReference: {fileID: 0}
+    - target: {fileID: 8928723559210676442, guid: 53da90cac7ac355429bc1c32ccdb1faf, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -2.56
+      objectReference: {fileID: 0}
     - target: {fileID: 8928723559210676443, guid: 53da90cac7ac355429bc1c32ccdb1faf, type: 3}
       propertyPath: m_Name
       value: BackButton
       objectReference: {fileID: 0}
+    - target: {fileID: 8928723559605309734, guid: 53da90cac7ac355429bc1c32ccdb1faf, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 06eeebba39341874ea02252694f6c581, type: 3}
     - target: {fileID: 8928723559605309735, guid: 53da90cac7ac355429bc1c32ccdb1faf, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.17903855
@@ -181,3 +221,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 53da90cac7ac355429bc1c32ccdb1faf, type: 3}
+--- !u!1 &2030579628547049573 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8928723559210676443, guid: 53da90cac7ac355429bc1c32ccdb1faf, type: 3}
+  m_PrefabInstance: {fileID: 7477984930796468414}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &3727473207378632970
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2030579628547049573}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfabb0440166ab443bba8876756fdfa9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0, g: 0, b: 0, a: 1}
+  m_EffectDistance: {x: 0, y: -2.18}
+  m_UseGraphicAlpha: 1
