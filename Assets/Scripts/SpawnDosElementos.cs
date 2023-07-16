@@ -39,12 +39,12 @@ public class SpawnDosElementos : MonoBehaviour
 
         if (gameMode == 1)
         {
-            x1 = 2.7f; x2 = 6.9f; x3 = 4.6f; y1 = 6.5f; y2 = 3f;
+            x1 = 2f; x2 = 6f; x3 = 4f; y1 = 6.5f; y2 = 2.5f;
         }
 
         else if (gameMode == 2)
         {
-            x1 = 4f; x2 = 8.9f; x3 = 13.6f; y1 = 7.2f; y2 = 7.2f;
+            x1 = 3f; x2 = 7.9f; x3 = 12.6f; y1 = 6.9f; y2 = 6.9f;
         }
 
         Vector3 pos1 = new Vector3(worldPosition.x + x1, worldPosition.y + y1, worldPosition.z);
