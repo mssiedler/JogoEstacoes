@@ -19,6 +19,10 @@ PrefabInstance:
       propertyPath: m_Colors.m_HighlightedColor.r
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4338401086704002274, guid: 53da90cac7ac355429bc1c32ccdb1faf, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7407248136358709718, guid: 53da90cac7ac355429bc1c32ccdb1faf, type: 3}
       propertyPath: m_Enabled
       value: 0

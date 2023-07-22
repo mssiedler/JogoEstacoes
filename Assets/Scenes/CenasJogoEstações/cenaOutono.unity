@@ -203,7 +203,7 @@ Canvas:
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
-  m_AdditionalShaderChannelsFlag: 0
+  m_AdditionalShaderChannelsFlag: 25
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
@@ -372,6 +372,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 412518724}
     m_Modifications:
+    - target: {fileID: 1384049120767920428, guid: 3262e707d4c13e341b3eb6859d24e17c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 412518727}
+    - target: {fileID: 1384049120767920428, guid: 3262e707d4c13e341b3eb6859d24e17c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: LoadScenes
+      objectReference: {fileID: 0}
+    - target: {fileID: 1384049120767920428, guid: 3262e707d4c13e341b3eb6859d24e17c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: cenaInverno
+      objectReference: {fileID: 0}
+    - target: {fileID: 1924270187034421434, guid: 3262e707d4c13e341b3eb6859d24e17c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1957854977859904718, guid: 3262e707d4c13e341b3eb6859d24e17c, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 8.22
@@ -386,11 +402,11 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: e9222b5f2e9735243a017b765dd32c64, type: 3}
     - target: {fileID: 2030579627051984860, guid: 3262e707d4c13e341b3eb6859d24e17c, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 5.89
+      value: 5.43
       objectReference: {fileID: 0}
     - target: {fileID: 2030579627051984860, guid: 3262e707d4c13e341b3eb6859d24e17c, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 1.88
+      value: 1.72
       objectReference: {fileID: 0}
     - target: {fileID: 2030579627866001142, guid: 3262e707d4c13e341b3eb6859d24e17c, type: 3}
       propertyPath: m_RootOrder
@@ -520,6 +536,18 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
       value: cenaVerao
       objectReference: {fileID: 0}
+    - target: {fileID: 4845060754727606278, guid: 3262e707d4c13e341b3eb6859d24e17c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 412518727}
+    - target: {fileID: 4845060754727606278, guid: 3262e707d4c13e341b3eb6859d24e17c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: LoadScenes
+      objectReference: {fileID: 0}
+    - target: {fileID: 4845060754727606278, guid: 3262e707d4c13e341b3eb6859d24e17c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: cenaInverno
+      objectReference: {fileID: 0}
     - target: {fileID: 9143756804945082267, guid: 3262e707d4c13e341b3eb6859d24e17c, type: 3}
       propertyPath: m_audioClip
       value: 
@@ -553,7 +581,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &645900368 stripped
 GameObject:
-  m_CorrespondingSourceObject: {fileID: 6625423293269793884, guid: 3262e707d4c13e341b3eb6859d24e17c, type: 3}
+  m_CorrespondingSourceObject: {fileID: 3473522569751334363, guid: 3262e707d4c13e341b3eb6859d24e17c, type: 3}
+  m_PrefabInstance: {fileID: 645900366}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &645900369 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7621930454396163511, guid: 3262e707d4c13e341b3eb6859d24e17c, type: 3}
   m_PrefabInstance: {fileID: 645900366}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &864816235
@@ -743,11 +776,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6857639324685394609, guid: 0f38340c819f6cf40aa39e527961b169, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 246
+      value: 229
       objectReference: {fileID: 0}
     - target: {fileID: 6857639324685394609, guid: 0f38340c819f6cf40aa39e527961b169, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -23
+      value: -32
       objectReference: {fileID: 0}
     - target: {fileID: 6857639324685394609, guid: 0f38340c819f6cf40aa39e527961b169, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -785,6 +818,10 @@ PrefabInstance:
       propertyPath: continueButton
       value: 
       objectReference: {fileID: 645900368}
+    - target: {fileID: 6857639324685394614, guid: 0f38340c819f6cf40aa39e527961b169, type: 3}
+      propertyPath: animationButton
+      value: 
+      objectReference: {fileID: 645900369}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0f38340c819f6cf40aa39e527961b169, type: 3}
 --- !u!224 &1281902617 stripped

@@ -123,11 +123,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &76546935 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4338401086704002274, guid: 53da90cac7ac355429bc1c32ccdb1faf, type: 3}
-  m_PrefabInstance: {fileID: 2107709531}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &275770621
 GameObject:
   m_ObjectHideFlags: 0
@@ -461,7 +456,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8365db54ca852194587f572a369c59ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  continueButton: {fileID: 76546935}
+  continueButton: {fileID: 2107709533}
 --- !u!114 &1752361883
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -559,6 +554,11 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1842480544 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1009275744626093321, guid: 53da90cac7ac355429bc1c32ccdb1faf, type: 3}
+  m_PrefabInstance: {fileID: 2107709531}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1918977531
 GameObject:
   m_ObjectHideFlags: 0
@@ -837,7 +837,11 @@ PrefabInstance:
     - target: {fileID: 6857639324685394614, guid: 0f38340c819f6cf40aa39e527961b169, type: 3}
       propertyPath: continueButton
       value: 
-      objectReference: {fileID: 76546935}
+      objectReference: {fileID: 2107709533}
+    - target: {fileID: 6857639324685394614, guid: 0f38340c819f6cf40aa39e527961b169, type: 3}
+      propertyPath: animationButton
+      value: 
+      objectReference: {fileID: 1842480544}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0f38340c819f6cf40aa39e527961b169, type: 3}
 --- !u!1001 &2107709531
@@ -866,6 +870,26 @@ PrefabInstance:
     - target: {fileID: 1815849605500246566, guid: 53da90cac7ac355429bc1c32ccdb1faf, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
       value: cenaCartaPrimavera
+      objectReference: {fileID: 0}
+    - target: {fileID: 4153084953914231019, guid: 53da90cac7ac355429bc1c32ccdb1faf, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1752361881}
+    - target: {fileID: 4153084953914231019, guid: 53da90cac7ac355429bc1c32ccdb1faf, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: LoadScenes
+      objectReference: {fileID: 0}
+    - target: {fileID: 4153084953914231019, guid: 53da90cac7ac355429bc1c32ccdb1faf, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Menu, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4153084953914231019, guid: 53da90cac7ac355429bc1c32ccdb1faf, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: cenaCartaPrimavera
+      objectReference: {fileID: 0}
+    - target: {fileID: 6337494806755571045, guid: 53da90cac7ac355429bc1c32ccdb1faf, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8928723558276920904, guid: 53da90cac7ac355429bc1c32ccdb1faf, type: 3}
       propertyPath: m_RootOrder
@@ -988,6 +1012,18 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8928723559210676437, guid: 53da90cac7ac355429bc1c32ccdb1faf, type: 3}
+      propertyPath: m_Colors.m_HighlightedColor.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8928723559210676437, guid: 53da90cac7ac355429bc1c32ccdb1faf, type: 3}
+      propertyPath: m_Colors.m_HighlightedColor.g
+      value: 0.5294118
+      objectReference: {fileID: 0}
+    - target: {fileID: 8928723559210676437, guid: 53da90cac7ac355429bc1c32ccdb1faf, type: 3}
+      propertyPath: m_Colors.m_HighlightedColor.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8928723559210676437, guid: 53da90cac7ac355429bc1c32ccdb1faf, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1752361881}
@@ -1056,5 +1092,10 @@ PrefabInstance:
 --- !u!4 &2107709532 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8928723558276920904, guid: 53da90cac7ac355429bc1c32ccdb1faf, type: 3}
+  m_PrefabInstance: {fileID: 2107709531}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2107709533 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9039641610687041540, guid: 53da90cac7ac355429bc1c32ccdb1faf, type: 3}
   m_PrefabInstance: {fileID: 2107709531}
   m_PrefabAsset: {fileID: 0}

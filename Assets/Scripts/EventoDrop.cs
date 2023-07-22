@@ -8,10 +8,12 @@ using UnityEngine.UI;
 public class EventoDrop : MonoBehaviour, IDropHandler
 {
     public GameObject continueButton;
+    public GameObject animationButton;
     private AudioSource audioSource;
     private void Start()
     {
         continueButton.SetActive(false);
+        animationButton.SetActive(false);
         audioSource = GetComponent<AudioSource>();
     }
 
@@ -20,6 +22,7 @@ public class EventoDrop : MonoBehaviour, IDropHandler
         if (DragAndDrop.colouCerto)
         {
             continueButton.SetActive(true);
+            animationButton.SetActive(true);
             audioSource.Play();
         }
     }

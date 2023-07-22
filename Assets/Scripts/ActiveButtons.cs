@@ -14,7 +14,6 @@ public class ActiveButtons : MonoBehaviour
         estacoesButton.SetActive(false);
     }
 
-    // Update is called once per frame
     public void trocaBotoes()
     {
         if (startButton.activeSelf)
