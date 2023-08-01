@@ -872,7 +872,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4153084953914231019, guid: 53da90cac7ac355429bc1c32ccdb1faf, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: cenaMuitoBemEstacoes
+      value: cenaCartaOutono
       objectReference: {fileID: 0}
     - target: {fileID: 6337494806755571045, guid: 53da90cac7ac355429bc1c32ccdb1faf, type: 3}
       propertyPath: m_IsActive
@@ -952,11 +952,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8928723559152936860, guid: 53da90cac7ac355429bc1c32ccdb1faf, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 1
+      value: 0.71
       objectReference: {fileID: 0}
     - target: {fileID: 8928723559152936860, guid: 53da90cac7ac355429bc1c32ccdb1faf, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 3.69
+      value: 3.55
       objectReference: {fileID: 0}
     - target: {fileID: 8928723559152936861, guid: 53da90cac7ac355429bc1c32ccdb1faf, type: 3}
       propertyPath: m_IsActive

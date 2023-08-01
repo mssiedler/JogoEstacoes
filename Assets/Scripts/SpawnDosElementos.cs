@@ -39,7 +39,7 @@ public class SpawnDosElementos : MonoBehaviour
 
         if (gameMode == 1)
         {
-            x1 = 2.4f; x2 = 6.4f; x3 = 4.2f; y1 = 6.5f; y2 = 2.5f;
+            x1 = 2.5f; x2 = 6.5f; x3 = 4.3f; y1 = 6.5f; y2 = 2.5f;
         }
 
         else if (gameMode == 2)
