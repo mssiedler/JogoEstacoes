@@ -596,6 +596,55 @@ Transform:
   m_Father: {fileID: 1629521147}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &397221779
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 397221781}
+  - component: {fileID: 397221780}
+  m_Layer: 0
+  m_Name: Unity-RecorderBindings
+  m_TagString: EditorOnly
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &397221780
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 397221779}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a24bc7e8573847adbdf1198360b3c794, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_References:
+    m_Keys:
+    - 6b69d8479d23e43f3ba9486cada93c82
+    m_Values:
+    - {fileID: 723163615}
+--- !u!4 &397221781
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 397221779}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &463837711
 GameObject:
   m_ObjectHideFlags: 0
@@ -1017,7 +1066,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &724495216
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1036,8 +1085,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -2, y: -125}
-  m_SizeDelta: {x: 275, y: 130}
+  m_AnchoredPosition: {x: -2, y: 153}
+  m_SizeDelta: {x: 345, y: 92}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &724495217
 MonoBehaviour:
@@ -1206,7 +1255,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Cartas
+  m_text: Associar
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 57ff1525eb6e95c45991c44dff98143d, type: 2}
   m_sharedMaterial: {fileID: -337137501537648739, guid: 57ff1525eb6e95c45991c44dff98143d, type: 2}
@@ -1321,8 +1370,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -2, y: 110}
-  m_SizeDelta: {x: 275, y: 100}
+  m_AnchoredPosition: {x: 4.57, y: 34}
+  m_SizeDelta: {x: 345, y: 92}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1210500081
 MonoBehaviour:
@@ -1468,8 +1517,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 5.449997, y: 4.540001}
+  m_SizeDelta: {x: 69.06, y: -9.09}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1302510123
 MonoBehaviour:
@@ -1491,7 +1540,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Esta\xE7\xF5es"
+  m_text: Parear
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 57ff1525eb6e95c45991c44dff98143d, type: 2}
   m_sharedMaterial: {fileID: -337137501537648739, guid: 57ff1525eb6e95c45991c44dff98143d, type: 2}
@@ -1606,8 +1655,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -2, y: 0}
-  m_SizeDelta: {x: 275, y: 100}
+  m_AnchoredPosition: {x: -2, y: -85}
+  m_SizeDelta: {x: 345, y: 92}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1361310205
 MonoBehaviour:
@@ -1844,7 +1893,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -298.60004, y: -90.14801}
+  m_AnchoredPosition: {x: -298.59998, y: -90.14801}
   m_SizeDelta: {x: -663.97, y: -231.49}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1477705460
@@ -2249,6 +2298,7 @@ MonoBehaviour:
   estacoesButton: {fileID: 1210500079}
   cartasButton: {fileID: 1361310203}
   startButton: {fileID: 144414473}
+  conhecendoButton: {fileID: 724495215}
 --- !u!1 &2050830781
 GameObject:
   m_ObjectHideFlags: 0
@@ -2307,7 +2357,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Conhe\xE7a as esta\xE7\xF5es"
+  m_text: Conhecer
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 57ff1525eb6e95c45991c44dff98143d, type: 2}
   m_sharedMaterial: {fileID: -337137501537648739, guid: 57ff1525eb6e95c45991c44dff98143d, type: 2}
@@ -2334,8 +2384,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 45
-  m_fontSizeBase: 45
+  m_fontSize: 63
+  m_fontSizeBase: 63
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18

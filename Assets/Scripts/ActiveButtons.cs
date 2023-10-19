@@ -7,13 +7,13 @@ public class ActiveButtons : MonoBehaviour
     public GameObject estacoesButton;
     public GameObject cartasButton;
     public GameObject startButton;
-    //public GameObject conhecendoButton;
+    public GameObject conhecendoButton;
     void Start()
     {
         startButton.SetActive(true);
         cartasButton.SetActive(false);
         estacoesButton.SetActive(false);
-        //conhecendoButton.SetActive(false);
+        conhecendoButton.SetActive(false);
     }
 
     public void trocaBotoes()
@@ -23,7 +23,7 @@ public class ActiveButtons : MonoBehaviour
             startButton.SetActive(false);
             cartasButton.SetActive(true);
             estacoesButton.SetActive(true);
-            //conhecendoButton.SetActive(true);
+            conhecendoButton.SetActive(true);
         }
     }
 }

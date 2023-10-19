@@ -490,6 +490,14 @@ PrefabInstance:
       value: 99.7357
       objectReference: {fileID: 0}
     - target: {fileID: 2030579628018985369, guid: 3262e707d4c13e341b3eb6859d24e17c, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.1810386
+      objectReference: {fileID: 0}
+    - target: {fileID: 2030579628018985369, guid: 3262e707d4c13e341b3eb6859d24e17c, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.1102552
+      objectReference: {fileID: 0}
+    - target: {fileID: 2030579628018985369, guid: 3262e707d4c13e341b3eb6859d24e17c, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 1.1886
       objectReference: {fileID: 0}
@@ -553,6 +561,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
       value: cenaInverno
       objectReference: {fileID: 0}
+    - target: {fileID: 2515992660826681386, guid: 3262e707d4c13e341b3eb6859d24e17c, type: 3}
+      propertyPath: m_text
+      value: Continuar
+      objectReference: {fileID: 0}
     - target: {fileID: 4845060754727606278, guid: 3262e707d4c13e341b3eb6859d24e17c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -567,7 +579,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4845060754727606278, guid: 3262e707d4c13e341b3eb6859d24e17c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: cenaMuitoBemCartas
+      value: cenaMuitoBemEstacoes
+      objectReference: {fileID: 0}
+    - target: {fileID: 5490369364327099486, guid: 3262e707d4c13e341b3eb6859d24e17c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 80
+      objectReference: {fileID: 0}
+    - target: {fileID: 7304463735856927817, guid: 3262e707d4c13e341b3eb6859d24e17c, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 206.8277
+      objectReference: {fileID: 0}
+    - target: {fileID: 7304463735856927817, guid: 3262e707d4c13e341b3eb6859d24e17c, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 6.4646
       objectReference: {fileID: 0}
     - target: {fileID: 9143756804945082267, guid: 3262e707d4c13e341b3eb6859d24e17c, type: 3}
       propertyPath: m_audioClip

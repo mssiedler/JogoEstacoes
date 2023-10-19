@@ -12,22 +12,22 @@ EditorBuildSettings:
     path: Assets/Scenes/CenasMenus/cenaMenuInfo.unity
     guid: c7e00fb5d3d66f0438f114c254864303
   - enabled: 1
-    path: Assets/Scenes/CenasMenus/cenaMuitoBemCartas.unity
+    path: Assets/Scenes/CenasMenus/cenaMuitoBemBaloes.unity
     guid: a69d973c1949e7b4b87a625cc987cb55
   - enabled: 1
     path: Assets/Scenes/CenasMenus/cenaMuitoBemEstacoes.unity
     guid: 0eef745eec3813746a5ecb5e6f7c4c4f
   - enabled: 1
-    path: "Assets/Scenes/CenasJogoEsta\xE7\xF5es/cenaVerao.unity"
+    path: "Assets/Scenes/CenasJogoEstac\u0327o\u0303es/cenaVerao.unity"
     guid: 1ffd3d4094de6e947b8cce991d2e61a1
   - enabled: 1
-    path: "Assets/Scenes/CenasJogoEsta\xE7\xF5es/cenaInverno.unity"
+    path: "Assets/Scenes/CenasJogoEstac\u0327o\u0303es/cenaInverno.unity"
     guid: 19ef0887f00d7294582d4cebac39ccfd
   - enabled: 1
-    path: "Assets/Scenes/CenasJogoEsta\xE7\xF5es/cenaOutono.unity"
+    path: "Assets/Scenes/CenasJogoEstac\u0327o\u0303es/cenaOutono.unity"
     guid: 32a11cee46b41634aa98300a6f8a01a4
   - enabled: 1
-    path: "Assets/Scenes/CenasJogoEsta\xE7\xF5es/cenaPrimavera.unity"
+    path: "Assets/Scenes/CenasJogoEstac\u0327o\u0303es/cenaPrimavera.unity"
     guid: 4f79eff291b767f4c91c1f29a15d9469
   - enabled: 1
     path: Assets/Scenes/CenasJogoCartas/CenaCartaInverno.unity
@@ -44,4 +44,22 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/CenasConhecendoEstacoes/CenaMenuConhecendoEstacoes.unity
     guid: 6aadfda237b8d2e428347d518c91264f
+  - enabled: 1
+    path: Assets/Scenes/CenasConhecendoEstacoes/cenaConhecendoInverno.unity
+    guid: 4dde234e6a833424e93134b3eb4b827d
+  - enabled: 1
+    path: Assets/Scenes/CenasConhecendoEstacoes/cenaConhecendoOutono.unity
+    guid: 8ad270feba3b67844b504144d15a312a
+  - enabled: 1
+    path: Assets/Scenes/CenasConhecendoEstacoes/cenaConhecendoVerao.unity
+    guid: 19c0adf34d2055e4e82f22cc362bd5ab
+  - enabled: 1
+    path: Assets/Scenes/CenasConhecendoEstacoes/cenaConhecendoPrimavera.unity
+    guid: a6d1f4808deaea84697e8064e8a1e2a9
+  - enabled: 1
+    path: Assets/Scenes/CenasConhecendoEstacoes/CenaFimConhecendoEstacoes.unity
+    guid: 6996797957198445abc74ae13d76ace3
+  - enabled: 1
+    path: Assets/Scenes/CenasMenus/cenaMuitoBemCartas.unity
+    guid: 857784800f6e04e9793be3fb5dfbfef4
   m_configObjects: {}

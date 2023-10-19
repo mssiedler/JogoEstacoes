@@ -89,7 +89,7 @@ public class SpawnDosElementos : MonoBehaviour
         
 
         string[] estacoes = { "verao", "outono", "inverno", "primavera" };
-        string[] audiosPersonagens = { "menina_verão", "menina_outono", "menino_inverno", "menino_primavera" };
+        string[] audiosPersonagens = { "menina_v", "menina_outono", "menino_inverno", "menino_primavera" };
 
         for(int i = 0; i < 4; i++)
         {

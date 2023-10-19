@@ -1,0 +1,506 @@
+fileFormatVersion: 2
+guid: 74f7345cec2c544e4b32bb8aa41cbcec
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: bonecossh_0
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 1379
+        width: 453
+        height: 354
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80502de07c62e4ef2afa020ed2d7f2be
+      internalID: -1624623776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bonecossh_1
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1373
+        width: 264
+        height: 391
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0d94ab2b14734fd6b813f419d36b72c
+      internalID: 1859326127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bonecossh_2
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 1374
+        width: 189
+        height: 386
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf7370d74d7ff4a13b99119689e92123
+      internalID: -472627433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bonecossh_3
+      rect:
+        serializedVersion: 2
+        x: 1298
+        y: 1375
+        width: 245
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c33be1eb6197349c0b247b306c1eb1fe
+      internalID: 446543036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bonecossh_4
+      rect:
+        serializedVersion: 2
+        x: 1541
+        y: 1628
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba1e78b189ffd447f8e65f2ad2d40ceb
+      internalID: 1903460953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bonecossh_10
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 896
+        width: 524
+        height: 457
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31fcbcdd82b0648e8ae48f0fa52734c9
+      internalID: 1549423461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bonecossh_14
+      rect:
+        serializedVersion: 2
+        x: 733
+        y: 932
+        width: 198
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf30d58f569c846d2acb64120aca5094
+      internalID: -428956309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bonecossh_15
+      rect:
+        serializedVersion: 2
+        x: 1313
+        y: 911
+        width: 188
+        height: 404
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1eb03cd0a85d74937b0ab3709ad6b7b0
+      internalID: -484811211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bonecossh_39
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 449
+        width: 515
+        height: 437
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89ac2df783110496b9b8b2fa365aeb6d
+      internalID: 1256360892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bonecossh_41
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 486
+        width: 264
+        height: 383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 260a223aea5f54be2957b2c6d87dcbd1
+      internalID: 119912275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bonecossh_42
+      rect:
+        serializedVersion: 2
+        x: 1315
+        y: 466
+        width: 196
+        height: 414
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 339cc21bd8d06447a9c35fa02a7d2bad
+      internalID: 1842451722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bonecossh_46
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 53
+        width: 412
+        height: 353
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dc42217ad126426c9c6bfb0c8beea55
+      internalID: -1762051441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bonecossh_48
+      rect:
+        serializedVersion: 2
+        x: 1154
+        y: 11
+        width: 478
+        height: 437
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dc1193f9c22549be9f936d5a3e67c8e
+      internalID: -151211742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bonecossh_50
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 72
+        width: 459
+        height: 334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86578644c01834166bf4d4265fb10219
+      internalID: -1860561873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      bonecossh_52: -819825873
+      bonecossh_9: -202350887
+      bonecossh_6: -238064357
+      bonecossh_32: 1019861972
+      bonecossh_45: 1585733095
+      bonecossh_30: -427265163
+      bonecossh_41: 119912275
+      bonecossh_3: 446543036
+      bonecossh_15: -484811211
+      bonecossh_24: 464328487
+      bonecossh_33: -1966876316
+      bonecossh_19: -866944847
+      bonecossh_51: 743709684
+      bonecossh_10: 1549423461
+      bonecossh_23: -885659876
+      bonecossh_39: 1256360892
+      bonecossh_44: 1556699336
+      bonecossh_34: 939018828
+      bonecossh_16: -1134972506
+      bonecossh_7: -908407114
+      bonecossh_36: -1048690416
+      bonecossh_14: -428956309
+      bonecossh_28: 1116920911
+      bonecossh_31: 560270682
+      bonecossh_35: -989406838
+      bonecossh_49: 387196412
+      bonecossh_42: 1842451722
+      bonecossh_37: 1995532961
+      bonecossh_47: -1399610020
+      bonecossh_21: 1774713617
+      bonecossh_8: 820866168
+      bonecossh_18: 1744548321
+      bonecossh_27: 315008259
+      bonecossh_50: -1860561873
+      bonecossh_17: -930230549
+      bonecossh_22: 1786455695
+      bonecossh_12: -1392514617
+      bonecossh_48: -151211742
+      bonecossh_43: 1961844653
+      bonecossh_20: 916980155
+      bonecossh_40: -729955349
+      bonecossh_26: 2096049567
+      bonecossh_29: 298798630
+      bonecossh_1: 1859326127
+      bonecossh_4: 1903460953
+      bonecossh_5: -1436337352
+      bonecossh_13: -787784253
+      bonecossh_38: 1880445395
+      bonecossh_25: -1436459964
+      bonecossh_0: -1624623776
+      bonecossh_46: -1762051441
+      bonecossh_2: -472627433
+      bonecossh_11: -1032722622
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
